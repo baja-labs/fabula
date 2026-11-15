@@ -9,7 +9,7 @@
 # live under /tmp. The Typst packages cetz and fletcher are cached at build time, so a render never downloads one.
 
 # ── Typst, from its GitHub release ───────────────────────────────────
-FROM alpine:3.20 AS typst-bin
+FROM alpine:3.24 AS typst-bin
 ARG TYPST_VERSION=0.15.1
 ARG TYPST_SHA256_X86_64=a6d077d0a95eed5a2eba715b2dae06be954f624ccbf85758a03f389ded33118c
 ARG TYPST_SHA256_AARCH64=5aa8d74a3d906e60ea12a66ac2f37f8eef1b14cbad7182a745e393a10c23dcee
