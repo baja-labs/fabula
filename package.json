@@ -31,7 +31,7 @@
     "csv-parse": "^7.0.3",
     "fastify": "^5.12.8",
     "mjml": "^5.4.1",
-    "nestjs-cls": "^5.4.3",
+    "nestjs-cls": "^7.0.2",
     "nestjs-pino": "^4.6.1",
     "pino": "^9.14.0",
     "reflect-metadata": "^0.2.2",
